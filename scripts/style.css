@@ -68,3 +68,41 @@ body{
  #funFacts{
    cursor: pointer;
  }
+ .flex-container3{
+   display:block;
+   flex-direction:column;
+   flex-wrap:wrap;
+   background-color:rgba(0, 0, 0, 0.541);
+   border:2px double black;
+   margin-left:550px;
+   margin-top:-426px;
+   padding-left:15px;
+   padding-bottom:300px;
+   border-radius:5px;
+ }
+ 
+ .flex-item3{
+    font-size: 25px;
+    position: relative;
+    margin-top: 20px;
+    font-family:'Trebuchet MS';
+    font-style:normal;
+  }
+  .flex-title1{
+   font-style:normal;
+   position:relative;
+   font-family:serif;
+   margin-right:250px;
+   margin-top:-50px;
+  }
+  #imageCollection1{
+    width: 250px;
+    height: 180px;
+    position:relative;
+    padding-left:0px;
+    padding-top:0px;
+    border:2px solid black;
+    border-radius: 5px;
+
+    
+  }
