@@ -1,0 +1,33 @@
+body{
+    background-image: url("/images/bg5.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-style: italic;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+ }
+ 
+ .flex-container{
+    display: block;
+    background-color:rgba(25, 120, 230, 0.87);
+ }
+ .flex-item{
+   height:3%;
+   border:2px double black;
+ }
+ .flex-container2{
+  display: block;
+
+}
+.flex-item2{
+   border: 2px solid black;
+}
+ .flex-container3{
+  display: flex;
+  
+}
+.flex-text{
+  font-style:normal;
+  font-family:'Times New Roman';
+}
