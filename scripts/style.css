@@ -5,19 +5,30 @@ body{
     font-style: italic;
     margin-top: 0px;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right:0px;
  }
  
  .flex-container{
-    display: block;
+    display: flex;
+    flex-direction:row;
     background-color:rgba(25, 120, 230, 0.87);
+    border:5px double black;
+    border-radius:10px;
+    padding:30px 25px 30px 15px;
+    margin-right:1670px;
  }
  .flex-item{
-   height:3%;
-   border:2px double black;
+   margin: 0.8%;
+   border:2px double rgb(22, 32, 182);
+   border-radius:5px;
+   padding:20px 15px 20px 15px;
+   font-style:normal;
+   font-family:'Times New Roman';
  }
  .flex-container2{
-  display: block;
+  display: flex;
+  background-color:rgb(24, 197, 145);
+  border:3px solid rgb(61, 21, 206);
 
 }
 .flex-item2{
