@@ -7,38 +7,86 @@ body{
     margin-left: 0px;
     margin-right:0px;
  }
- 
  .flex-container{
     display: flex;
     flex-direction:row;
     background-color:rgba(25, 120, 230, 0.87);
     border:5px double black;
     border-radius:10px;
-    padding:30px 25px 30px 15px;
-    margin-right:1670px;
+    padding:15px 25px 15px 15px;
  }
  .flex-item{
    margin: 0.8%;
-   border:2px double rgb(22, 32, 182);
+   border:5px double rgb(63, 17, 3);
    border-radius:5px;
-   padding:20px 15px 20px 15px;
+   padding:50px 55px 50px 55px;
    font-style:normal;
    font-family:'Times New Roman';
+   font-size:20pt;
+ }
+ #banner{
+  font-style:normal;
+  font-family:Cambria;
+  padding-top:30px;
+  padding-left:15%;
+  font-size: 75pt;
  }
  .flex-container2{
   display: flex;
-  background-color:rgb(24, 197, 145);
+  background-color:rgba(24, 197, 145, 0.87);
   border:3px solid rgb(61, 21, 206);
-
+  border-radius:10px;
+  margin-right:30%;
 }
 .flex-item2{
-   border: 2px solid black;
+   font-style:normal;
+   font-family:'Times New Roman';
+   font-weight:bold;
+   font-size:20pt;
+   padding:100px 30px 30px 30px;
+   
 }
- .flex-container3{
-  display: flex;
-  
+.flex-container4{
+  background-color:rgba(255, 166, 0, 0.87);
+  border:4px double black;
+  border-radius:10px;
 }
-.flex-text{
+.flex-item4{
+  background-color:rgba(46, 190, 77, 0.87);
+  padding-top:20px;
   font-style:normal;
-  font-family:'Times New Roman';
+  font-family:sans-serif;
+  font-size:20pt;
+}
+.flex-title2{
+  background-color:rgba(255, 72, 0, 0.87);
+  border:2px solid black;
+  border-radius:5px;
+  font-style:normal;
+  font-family:sans-serif;
+  font-weight:bold;
+  font-size:35px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+}
+#phImg1{
+  width: 350px;
+  height: 350px;
+  padding-top:28%;
+}
+#imgCollection1{
+  width:300px;
+  height:200px;
+  padding-bottom:3%;
+  padding-left:1%;
+}
+.flex-title1{
+  background-color:rgba(164, 64, 204, 0.87);
+  border:2px solid black;
+  border-radius:5px;
+  font-style:normal;
+  font-family:sans-serif;
+  font-weight:bold;
+  font-size:35px;
 }
